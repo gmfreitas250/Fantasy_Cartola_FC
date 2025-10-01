@@ -1,6 +1,7 @@
 # Cartola FC Fantasy Analysis
 
-Este projeto realiza análise de dados do **Cartola FC Fantasy**, consolidando pontuações de jogadores, gerando métricas e visualizações.
+Este projeto foi desenvolvido para fazer a gestão de uma liga do cartolafc de um grupo de amigos. Nesse código realizo análise dos dados e métricas da liga, consolidando pontuações e escalações de jogadores, gerando arquivos de histórico para alimentar um power bi com os gráficos.
+Além disso foi realizado uma simulação de montecarlo com base no histórico de cada jogador, para trazer uma probabilidade de cada um ficar no Z4.
 
 ## Estrutura do Repositório
 
@@ -19,7 +20,7 @@ cartola-fc-fantasy/
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/cartola-fc-fantasy.git
+   git clone https://github.com/gmfreitas250/Fantasy_Cartola_FC
    cd cartola-fc-fantasy
    ```
 
@@ -50,5 +51,4 @@ As bibliotecas necessárias estão em `requirements.txt`.
 - Adicionar testes automatizados.
 - Criar pipeline de atualização dos dados.
 
----
-Projeto criado para análise e aprendizado de **dados esportivos com Python** ⚽📊
+
